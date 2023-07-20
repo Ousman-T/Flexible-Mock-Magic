@@ -47,6 +47,7 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    margin-left: 0%;
 }
 
 footer img {
@@ -78,3 +79,40 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    justify-content: left;
+    padding-left: 0px;
+}
+
+.nav-item, a{
+    display: inline;
+    list-style-type: none;
+    flex-direction: row-reverse;
+}
+
+
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-left: 10%;
+}
+
+.sidebar {
+    position: absolute;
+    flex: content;
+    left: 0px;
+    height: 100%;
+    
+
+}
+
+
