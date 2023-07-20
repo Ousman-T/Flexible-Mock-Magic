@@ -106,11 +106,18 @@ img {
     margin-left: 10%;
 }
 
+
+p {
+    justify-content: space-between;
+    padding-bottom: 200px;
+}
 .sidebar {
     position: absolute;
     flex: content;
     left: 0px;
     height: 100%;
+    padding: 30px;
+    justify-content: space-evenly;
     
 
 }
